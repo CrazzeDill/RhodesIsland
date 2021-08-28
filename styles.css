@@ -61,7 +61,17 @@ a:hover {
     color: rgb(112, 112, 112);
     
 }
-
+@media all and (max-width: 440px) {
+    .navbar {
+        font-size : 15px;
+    }  
+    .navbar li a{
+        padding: 0 10px;
+    }
+    header img {
+        height: 40px;
+    }
+}
 
 .big-logo {
     margin-top: 0;
@@ -91,8 +101,8 @@ a:hover {
 
 .feature {
     
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     padding: 20px;
     text-align: center;
     margin: 10px auto;
@@ -105,7 +115,7 @@ a:hover {
 
 
 .feature.operator {
-    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.67)),  url(https://aceship.github.io/AN-EN-Tags/img/avg/images/bg_0_rhodes2.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.67)),  url(https://aceship.github.io/AN-EN-Tags/img/avg/images/bg_0_rhodes2.png), center ;
     background-size: cover;
     color: whitesmoke;
     display: flex;
@@ -117,8 +127,8 @@ a:hover {
 }
 
 .feature.operator:hover  {
-    background: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url(https://aceship.github.io/AN-EN-Tags/img/avg/images/bg_0_rhodes2.png);
-    transform: scale(1.2);
+    background: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url(https://aceship.github.io/AN-EN-Tags/img/avg/images/bg_0_rhodes2.png), center;
+    transform: scale(1.1);
     background-size: cover;
     color: rgb(40, 41, 41);
     
@@ -126,7 +136,7 @@ a:hover {
 
 
 .feature.squads {
-    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.67)),  url(https://aceship.github.io/AN-EN-Tags/img/avg/images/avg_0_3.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.67)),  url(https://aceship.github.io/AN-EN-Tags/img/avg/images/avg_0_3.png), center ;
     background-size: cover;
     color: whitesmoke;
     display: flex;
@@ -138,8 +148,8 @@ a:hover {
 }
 
 .feature.squads:hover  {
-    background: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url(https://aceship.github.io/AN-EN-Tags/img/avg/images/avg_0_3.png);
-    transform: scale(1.2);
+    background: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url(https://aceship.github.io/AN-EN-Tags/img/avg/images/avg_0_3.png), center;
+    transform: scale(1.1);
     background-size: cover;
     color: rgb(40, 41, 41);
 }
