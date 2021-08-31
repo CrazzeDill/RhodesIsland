@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+
+* {
+    color: whitesmoke;
+}
+
+
+body {
+    background-color: rgb(46, 46, 46);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+    padding-left: 5%;
+    margin: auto 0;
+}
+header img {
+    height: 75px;
+    margin-left: 3vw;
+
+}
+header nav {
+    display: flex;
+    
+}
+.navbar ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    
+}
+
+.navbar li {
+    display: flex;
+}
+.navbar li a{
+    padding: 0 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: auto;
+    transition: 200ms;
+}
+.navbar li a span{
+    margin: auto;
+}
+
+a:hover {
+    background-color: rgb(189, 189, 189);
+    color: rgb(112, 112, 112);
+    
+}
+@media all and (max-width: 440px) {
+    .navbar {
+        font-size : 15px;
+    }  
+    .navbar li a{
+        padding: 0 10px;
+    }
+    header img {
+        height: 40px;
+    }
+}
+/*CONTENTS*/
+.container {
+    display: flex;
+    margin: auto 5vw;  
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.operator-box {
+    background-color: rgb(73, 73, 73);
+    height: 100px;
+    width: 200px;
+    margin: 10px 20px;
+    display: flex;
+    border: 2px solid;
+}
+.operator-box span{
+    font-size: 20px;
+    margin: auto;
+}
+.operator-icon {
+    height : 100px;
+}
